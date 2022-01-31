@@ -1,0 +1,32 @@
+{
+  "name": "corvid",
+  "version": "1.0.0",
+  "description": "A Wikiquote-Powered Discord Bot",
+  "main": "app.js",
+  "scripts": {
+    "lint": "npx eslint",
+    "prettify": "npx prettier --write .",
+    "transpile": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quoth-the-Bot-Nevermore/Corvid.git"
+  },
+  "author": "pulchra mentis, ellie & Corvid Contributors",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Quoth-the-Bot-Nevermore/Corvid/issues"
+  },
+  "homepage": "https://github.com/Quoth-the-Bot-Nevermore/Corvid#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
